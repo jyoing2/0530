@@ -99,3 +99,19 @@ img {
     border-radius: 14px;
     margin-top: 18px ;
 }
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:black;
+}
+
+a:active {
+    color:black;
+}
