@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(167, 200, 210);
+}
+
+*{
+    box-sizing: border-box;
+}
