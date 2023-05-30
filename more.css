@@ -71,12 +71,13 @@ body {
 .logo {
     margin-right: 60px;
     margin-bottom: 400px;
+    margin-left: 30px;
 }
 
 .Suggestions {
-    margin: 40px 0 30px 20px;
+    margin: 40px 0 30px 50px;
 }
 
 .under_space {
     height: 40%;
-    margin-left: 30px;}
+}
