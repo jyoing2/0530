@@ -3,11 +3,15 @@ body {
     padding: 0;
     text-decoration: none;
     color: black;
+    height: 960px;
 }
 
 *{
     box-sizing: border-box;
-    border: solid 1px blue;
+}
+
+.section {
+    height: 100%;
 }
 
 .top_bar {
@@ -36,4 +40,34 @@ body {
     align-items: center;
     height: 20%;
     margin: 10px;
+}
+
+.big_icon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    height: 10%;
+}
+
+.under_bar{
+    display: flex;
+    height: 8%;
+    background-color: rgb(233, 233, 233);
+    justify-content:space-around;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.sug_icon {
+    display: flex;
+    margin: 20px 20px 20px 20px;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.Suggestions {
+    margin: 30px 0 30px 20px;
 }
