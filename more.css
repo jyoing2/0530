@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    box-sizing: border-box;
+    border: solid 1px blue;
+}
+
+.top_bar {
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin: 8px;
+    height: 2%;
+}
+
+.nav{
+    display: flex;
+    height: 10%;
+    margin-right: 20px;
+    font-size: 30px;
+    justify-content: space-between;
+    line-height: 90px;
+}
+
+.name {
+    margin: 0 500px 0 30px;
+}
+
+.my {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    margin: 10px;
+}

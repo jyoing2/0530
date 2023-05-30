@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    height: 960px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.section {
+    height: 100%;
+}
+
+
+.top_bar {
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin: 8px;
+    height: 2%;
+}
+
+.nav{
+    display: flex;
+    height: 10%;
+    margin-right: 20px;
+    font-size: 30px;
+    justify-content: space-between;
+    line-height: 90px;
+}
+
+.name {
+    margin: 0 500px 0 30px;
+}
+
+.under_space {
+    height: 45%;
+}
+
+.under_bar{
+    display: flex;
+    height: 8%;
+    background-color: rgb(233, 233, 233);
+    justify-content:space-around;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.big_icon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    height: 10%;
+}
+
+.ment {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 20px 10px;
+}
+
+.rec {
+    display: flex;
+    height: 45%;
+}
+
+.rec_friends {
+    margin: 20px 10px 20px 10px;
+}
+
+.no {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.real_chat {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 0 40px;
+    align-items: center;
+}
+
+.img {
+    size: 10px;
+}
