@@ -8,6 +8,7 @@ body {
 
 *{
     box-sizing: border-box;
+    border: solid 1px black;
 }
 
 .section {
@@ -42,17 +43,21 @@ body {
     margin: 10px;
 }
 
+.myname {
+    margin-left: 20px;
+}
+
 .big_icon {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
     text-align: center;
-    height: 10%;
+    height: 8%;
 }
 
 .under_bar{
     display: flex;
-    height: 8%;
+    height: 20%;
     background-color: rgb(233, 233, 233);
     justify-content:space-around;
     padding-top: 20px;
@@ -66,8 +71,13 @@ body {
 
 .logo {
     margin-right: 60px;
+    margin-bottom: 400px;
 }
 
 .Suggestions {
-    margin: 30px 0 30px 20px;
+    margin: 40px 0 30px 20px;
 }
+
+.under_space {
+    height: 40%;
+    margin-left: 30px;}
